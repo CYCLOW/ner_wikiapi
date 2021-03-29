@@ -1,7 +1,7 @@
 # ner_wiki
 
 This Is A Web App, It Scrapps Data Through Wikipedia Api,
-It Selects Summary Of The Word Given in Search From Wikipedia.
+It Fetches Summary Of The Word Given in The Search Box, From Wikipedia.
 
 Its Passes The Data Through Spacy , Which Is A free open-source library for Natural Language Processing in Python.
 
