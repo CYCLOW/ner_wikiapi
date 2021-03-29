@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<body>
+    <nav class="navbar navbar-inverse" style="background-color: #3b3b3b;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Named Entity Realtion</a>
+            </div>
+            <form class="navbar-form navbar-right" method="post" action="/extract">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search For Another Word" name="searched">
+                </div>
+                <button type="submit" class="btn btn-default">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+
+    <div class="container my-7 mx-7">
+        <div class="card">
+            <div class="card-body">
+                {{ result|markdown}}
+            </div>
+        </div>
+    </div>
+
+</body>
+
+{% endblock body %}

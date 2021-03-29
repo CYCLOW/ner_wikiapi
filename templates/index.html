@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>NER-WIKI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .jumbotron {
+      background-color: #5a4843;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-full">
+    <div class="jumbotron text-center" style="height:50vh;">
+      <h1>Named Entity Relation</h1>
+      <p>Scrapping Data Through Wiki-Api</p>
+      <form class="form-inline" method="post" action="/extract">
+        <div class="input-group">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="searched">
+          <div class="input-group-btn">
+            <button class="btn btn-primary" type="submit">Search</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
