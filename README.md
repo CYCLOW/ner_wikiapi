@@ -9,7 +9,7 @@
 3. Activate The Created Environment.
 4. PiP Install The "requirements.txt" File.
 
-5. >> python app.py
+5. Run "python app.py" In CLI
 
 6. Once Everything Runs Successfully You Will Find A URL In Your CMD.
 7. Copy The Link And Paste It In The Browser.
