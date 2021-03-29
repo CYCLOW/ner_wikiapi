@@ -1,4 +1,4 @@
-# ner_wiki
+# ner_wiki_api
 
 This Is A Web App, It Scrapps Data Through Wikipedia Api,
 It Fetches Summary Of The Word Given in The Search Box, From Wikipedia.
